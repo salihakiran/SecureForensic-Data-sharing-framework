@@ -1,0 +1,1267 @@
+[
+    {
+        "time": "22:03:31",
+        "file": "ENCRYPTED_admin_dashboard.py.aes",
+        "protocol": "LAN",
+        "destination": "N/A",
+        "status": "Success"
+    },
+    {
+        "time": "11:36:25",
+        "file": "ENCRYPTED_transfer_history.json.aes",
+        "protocol": "LAN",
+        "destination": "N/A",
+        "status": "Success"
+    },
+    {
+        "time": "11:36:26",
+        "file": "ENCRYPTED_transfer_history.json.aes",
+        "protocol": "LAN",
+        "destination": "127.0.0.1",
+        "status": "Success"
+    },
+    {
+        "time": "11:37:02",
+        "file": "ENCRYPTED_Tugofwar.mp4.aes",
+        "protocol": "LAN",
+        "destination": "N/A",
+        "status": "Success"
+    },
+    {
+        "time": "11:37:03",
+        "file": "ENCRYPTED_Tugofwar.mp4.aes",
+        "protocol": "LAN",
+        "destination": "127.0.0.1",
+        "status": "Success"
+    },
+    {
+        "time": "11:39:35",
+        "file": "ENCRYPTED_DECRYPTED_ENCRYPTED_tuka.jpg.aes",
+        "protocol": "LAN",
+        "destination": "N/A",
+        "status": "Failed"
+    },
+    {
+        "time": "11:39:37",
+        "file": "ENCRYPTED_DECRYPTED_ENCRYPTED_tuka.jpg.aes",
+        "protocol": "LAN",
+        "destination": "127.0.0.1",
+        "status": "Success"
+    },
+    {
+        "time": "11:40:19",
+        "file": "ENCRYPTED_email.ui.aes",
+        "protocol": "LAN",
+        "destination": "N/A",
+        "status": "Success"
+    },
+    {
+        "time": "11:40:21",
+        "file": "ENCRYPTED_email.ui.aes",
+        "protocol": "LAN",
+        "destination": "127.0.0.1",
+        "status": "Success"
+    },
+    {
+        "time": "11:41:31",
+        "file": "ENCRYPTED_email.ui.aes",
+        "protocol": "LAN",
+        "destination": "N/A",
+        "status": "Failed"
+    },
+    {
+        "time": "11:41:33",
+        "file": "ENCRYPTED_email.ui.aes",
+        "protocol": "LAN",
+        "destination": "127.0.0.1",
+        "status": "Success"
+    },
+    {
+        "time": "11:42:22",
+        "file": "ENCRYPTED_email.ui.aes",
+        "protocol": "HTTP",
+        "destination": "N/A",
+        "status": "Success"
+    },
+    {
+        "time": "12:39:56",
+        "file": "ENCRYPTED_signup_page.ui.aes",
+        "protocol": "LAN",
+        "destination": "N/A",
+        "status": "Success"
+    },
+    {
+        "time": "12:39:58",
+        "file": "ENCRYPTED_signup_page.ui.aes",
+        "protocol": "LAN",
+        "destination": "127.0.0.1",
+        "status": "Success"
+    },
+    {
+        "time": "12:40:31",
+        "file": "ENCRYPTED_signup_page.ui.aes",
+        "protocol": "LAN",
+        "destination": "N/A",
+        "status": "Failed"
+    },
+    {
+        "time": "12:40:32",
+        "file": "ENCRYPTED_signup_page.ui.aes",
+        "protocol": "LAN",
+        "destination": "127.0.0.1",
+        "status": "Success"
+    },
+    {
+        "time": "12:43:36",
+        "file": "ENCRYPTED_background.jpg.aes",
+        "protocol": "LAN",
+        "destination": "N/A",
+        "status": "Failed"
+    },
+    {
+        "time": "12:43:37",
+        "file": "ENCRYPTED_background.jpg.aes",
+        "protocol": "LAN",
+        "destination": "127.0.0.1",
+        "status": "Success"
+    },
+    {
+        "time": "12:45:37",
+        "file": "ENCRYPTED_forensic_logs.json.aes",
+        "protocol": "LAN",
+        "destination": "N/A",
+        "status": "Failed"
+    },
+    {
+        "time": "12:45:38",
+        "file": "ENCRYPTED_forensic_logs.json.aes",
+        "protocol": "LAN",
+        "destination": "127.0.0.1",
+        "status": "Success"
+    },
+    {
+        "time": "13:27:46",
+        "file": "ENCRYPTED_background.jpg.aes",
+        "protocol": "LAN",
+        "destination": "N/A",
+        "status": "Failed"
+    },
+    {
+        "time": "13:27:50",
+        "file": "ENCRYPTED_background.jpg.aes",
+        "protocol": "LAN",
+        "destination": "127.0.01",
+        "status": "Success"
+    },
+    {
+        "time": "13:28:05",
+        "file": "ENCRYPTED_background.jpg.aes",
+        "protocol": "LAN",
+        "destination": "N/A",
+        "status": "Success"
+    },
+    {
+        "time": "13:28:12",
+        "file": "ENCRYPTED_background.jpg.aes",
+        "protocol": "LAN",
+        "destination": "127.0.0.1",
+        "status": "Success"
+    },
+    {
+        "time": "13:44:49",
+        "file": "ENCRYPTED_transfer_history.json.aes",
+        "protocol": "Email",
+        "destination": "N/A",
+        "status": "Success"
+    },
+    {
+        "time": "13:45:31",
+        "file": "ENCRYPTED_transfer_history.json.aes",
+        "protocol": "Email",
+        "destination": "N/A",
+        "status": "Success"
+    },
+    {
+        "time": "20:21:01",
+        "file": "ENCRYPTED_Tugofwar.mp4.aes",
+        "protocol": "Email",
+        "destination": "N/A",
+        "status": "Success"
+    },
+    {
+        "time": "20:34:37",
+        "file": "ENCRYPTED_admin_dashboard.py.aes",
+        "protocol": "Email",
+        "destination": "N/A",
+        "status": "Success"
+    },
+    {
+        "time": "20:34:50",
+        "file": "ENCRYPTED_admin_dashboard.py.aes",
+        "protocol": "Email to furqant972@gmail.com",
+        "destination": "N/A",
+        "status": "Success"
+    },
+    {
+        "time": "20:42:18",
+        "file": "ENCRYPTED_admin_dashboard.py.aes",
+        "protocol": "Email",
+        "destination": "N/A",
+        "status": "Success"
+    },
+    {
+        "time": "20:42:33",
+        "file": "ENCRYPTED_admin_dashboard.py.aes",
+        "protocol": "Email to furqant972@gmail.com",
+        "destination": "N/A",
+        "status": "Success"
+    },
+    {
+        "time": "20:42:59",
+        "file": "ENCRYPTED_admin_dashboard.py.aes",
+        "protocol": "LAN",
+        "destination": "N/A",
+        "status": "Failed"
+    },
+    {
+        "time": "20:43:02",
+        "file": "ENCRYPTED_admin_dashboard.py.aes",
+        "protocol": "LAN",
+        "destination": "127.0.0.1",
+        "status": "Success"
+    },
+    {
+        "time": "20:51:55",
+        "file": "ENCRYPTED_background.jpg.aes",
+        "protocol": "Email",
+        "destination": "N/A",
+        "status": "Success"
+    },
+    {
+        "time": "20:52:14",
+        "file": "ENCRYPTED_background.jpg.aes",
+        "protocol": "Email to furqant972@gmail.com",
+        "destination": "N/A",
+        "status": "Success"
+    },
+    {
+        "time": "20:52:33",
+        "file": "ENCRYPTED_background.jpg.aes",
+        "protocol": "LAN",
+        "destination": "N/A",
+        "status": "Failed"
+    },
+    {
+        "time": "20:52:35",
+        "file": "ENCRYPTED_background.jpg.aes",
+        "protocol": "LAN",
+        "destination": "127.0.0.1",
+        "status": "Success"
+    },
+    {
+        "time": "20:58:21",
+        "file": "ENCRYPTED_app.py.aes",
+        "protocol": "LAN",
+        "destination": "N/A",
+        "status": "Failed"
+    },
+    {
+        "time": "20:58:23",
+        "file": "ENCRYPTED_app.py.aes",
+        "protocol": "LAN",
+        "destination": "127.0.0.1",
+        "status": "Success"
+    },
+    {
+        "time": "21:27:02",
+        "file": "ENCRYPTED_users .db.aes",
+        "protocol": "LAN",
+        "destination": "N/A",
+        "status": "Failed"
+    },
+    {
+        "time": "21:27:04",
+        "file": "ENCRYPTED_users .db.aes",
+        "protocol": "LAN",
+        "destination": "127.0.0.1",
+        "status": "Success"
+    },
+    {
+        "time": "21:38:38",
+        "file": "ENCRYPTED_app.py.aes",
+        "protocol": "LAN",
+        "destination": "N/A",
+        "status": "Failed"
+    },
+    {
+        "time": "21:38:40",
+        "file": "ENCRYPTED_app.py.aes",
+        "protocol": "LAN",
+        "destination": "127.0.0.1",
+        "status": "Success"
+    },
+    {
+        "time": "Now",
+        "file": "Data.enc",
+        "status": "Sent"
+    },
+    {
+        "time": "21:58:58",
+        "file": "ENCRYPTED_admin_dashboard.py.aes.aes",
+        "protocol": "LAN",
+        "destination": "N/A",
+        "status": "Failed"
+    },
+    {
+        "time": "21:58:59",
+        "file": "ENCRYPTED_admin_dashboard.py.aes.aes",
+        "protocol": "LAN",
+        "destination": "127.0.0.1",
+        "status": "Success"
+    },
+    {
+        "time": "22:04:36",
+        "file": "ENCRYPTED_forensic_logs.json.aes",
+        "protocol": "LAN",
+        "destination": "N/A",
+        "status": "Failed"
+    },
+    {
+        "time": "22:04:37",
+        "file": "ENCRYPTED_forensic_logs.json.aes",
+        "protocol": "LAN",
+        "destination": "127.0.0.1",
+        "status": "Success"
+    },
+    {
+        "time": "22:07:41",
+        "file": "ENCRYPTED_forensic_logs.json.aes",
+        "protocol": "LAN",
+        "destination": "N/A",
+        "status": "Failed"
+    },
+    {
+        "time": "22:07:42",
+        "file": "ENCRYPTED_forensic_logs.json.aes",
+        "protocol": "LAN",
+        "destination": "127.0.0.1",
+        "status": "Success"
+    },
+    {
+        "time": "10:31:08",
+        "file": "ENCRYPTED_users.db.aes",
+        "protocol": "LAN",
+        "destination": "N/A",
+        "status": "Failed"
+    },
+    {
+        "time": "10:31:10",
+        "file": "ENCRYPTED_users.db.aes",
+        "protocol": "LAN",
+        "destination": "127.0.0.1",
+        "status": "Success"
+    },
+    {
+        "time": "15:17:40",
+        "file": "ENCRYPTED_background.jpg.aes",
+        "protocol": "LAN",
+        "destination": "N/A",
+        "status": "Success"
+    },
+    {
+        "time": "15:17:42",
+        "file": "ENCRYPTED_background.jpg.aes",
+        "protocol": "LAN",
+        "destination": "127.0.0.1",
+        "status": "Success"
+    },
+    {
+        "time": "15:29:34",
+        "file": "ENCRYPTED_admin_dashboard.py.aes.aes",
+        "protocol": "LAN",
+        "destination": "N/A",
+        "status": "Failed"
+    },
+    {
+        "time": "15:29:35",
+        "file": "ENCRYPTED_admin_dashboard.py.aes.aes",
+        "protocol": "LAN",
+        "destination": "127.0.0.1",
+        "status": "Success"
+    },
+    {
+        "time": "15:44:31",
+        "file": "ENCRYPTED_landing_page.py.aes",
+        "protocol": "LAN",
+        "destination": "N/A",
+        "status": "Failed"
+    },
+    {
+        "time": "15:44:33",
+        "file": "ENCRYPTED_landing_page.py.aes",
+        "protocol": "LAN",
+        "destination": "127.0.0.1",
+        "status": "Success"
+    },
+    {
+        "time": "15:46:38",
+        "file": "ENCRYPTED_landing_page.py.aes",
+        "protocol": "HTTP",
+        "destination": "N/A",
+        "status": "Success"
+    },
+    {
+        "time": "15:47:22",
+        "file": "ENCRYPTED_app.py.aes",
+        "protocol": "USB",
+        "destination": "N/A",
+        "status": "Success"
+    },
+    {
+        "time": "15:47:29",
+        "file": "ENCRYPTED_app.py.aes",
+        "protocol": "HDD",
+        "destination": "N/A",
+        "status": "Success"
+    },
+    {
+        "time": "15:48:54",
+        "file": "ENCRYPTED_landing_page.ui.aes",
+        "protocol": "USB",
+        "destination": "N/A",
+        "status": "Success"
+    },
+    {
+        "time": "15:48:55",
+        "file": "ENCRYPTED_landing_page.ui.aes",
+        "protocol": "HDD",
+        "destination": "N/A",
+        "status": "Success"
+    },
+    {
+        "time": "15:49:07",
+        "file": "ENCRYPTED_landing_page.ui.aes",
+        "protocol": "Email",
+        "destination": "N/A",
+        "status": "Success"
+    },
+    {
+        "time": "15:49:09",
+        "file": "ENCRYPTED_landing_page.ui.aes",
+        "protocol": "HTTP",
+        "destination": "N/A",
+        "status": "Success"
+    },
+    {
+        "time": "16:04:08",
+        "file": "ENCRYPTED_admin_dashboard.py.aes.aes",
+        "protocol": "LAN",
+        "destination": "127.0.0.1",
+        "status": "Failed"
+    },
+    {
+        "time": "16:05:12",
+        "file": "ENCRYPTED_admin_dashboard.py.aes.aes",
+        "protocol": "Email",
+        "destination": "furqant972@gmail.com",
+        "status": "Success"
+    },
+    {
+        "time": "16:05:26",
+        "file": "ENCRYPTED_admin_dashboard.py.aes.aes",
+        "protocol": "LAN",
+        "destination": "127.0.0.1",
+        "status": "Failed"
+    },
+    {
+        "time": "16:07:07",
+        "file": "ENCRYPTED_maryamtariq.ui.aes",
+        "protocol": "LAN",
+        "destination": "127.0.0.1",
+        "status": "Success"
+    },
+    {
+        "time": "16:08:42",
+        "file": "ENCRYPTED_maryamtariq.ui.aes",
+        "protocol": "HDD",
+        "destination": "N/A",
+        "status": "Success"
+    },
+    {
+        "time": "16:09:26",
+        "file": "ENCRYPTED_maryamtariq.ui.aes",
+        "protocol": "Email",
+        "destination": "furqant972@gmail.com",
+        "status": "Success"
+    },
+    {
+        "time": "16:13:07",
+        "file": "ENCRYPTED_maryamtariq.ui.aes",
+        "protocol": "Email",
+        "destination": "furqant972@gmail.com",
+        "status": "Success"
+    },
+    {
+        "time": "16:16:04",
+        "file": "ENCRYPTED_users.db.aes",
+        "protocol": "Email",
+        "destination": "f12@gmail.com",
+        "status": "Success"
+    },
+    {
+        "time": "16:16:48",
+        "file": "ENCRYPTED_users.db.aes",
+        "protocol": "LAN",
+        "destination": "127.0.0.1",
+        "status": "Failed"
+    },
+    {
+        "time": "16:23:29",
+        "file": "ENCRYPTED_users .db.aes",
+        "protocol": "Email",
+        "destination": "j2@gmail.com",
+        "status": "Success"
+    },
+    {
+        "time": "16:28:17",
+        "file": "ENCRYPTED_admin_dashboard.py.aes",
+        "protocol": "LAN",
+        "destination": "127.0.0.1",
+        "status": "Failed"
+    },
+    {
+        "time": "16:30:17",
+        "file": "ENCRYPTED_admin_dashboard.py.aes",
+        "protocol": "LAN",
+        "destination": "127.0.0.1",
+        "status": "Failed"
+    },
+    {
+        "time": "20:20:03",
+        "file": "ENCRYPTED_signup_page.ui.aes",
+        "protocol": "LAN",
+        "destination": "127.0.0.1",
+        "status": "Success"
+    },
+    {
+        "time": "10:55:22",
+        "file": "ENCRYPTED_memory.mp4.aes",
+        "protocol": "LAN",
+        "destination": "127.0.0.1",
+        "status": "Success"
+    },
+    {
+        "time": "11:00:10",
+        "file": "ENCRYPTED_eye_icon.png.aes",
+        "protocol": "LAN",
+        "destination": "127.0.0.1",
+        "status": "Success"
+    },
+    {
+        "time": "11:06:56",
+        "file": "ENCRYPTED_eye_icon.png.aes",
+        "protocol": "LAN",
+        "destination": "127.0.0.1",
+        "status": "Success"
+    },
+    {
+        "time": "12:19:44",
+        "file": "ENCRYPTED_eye_icon.png.aes",
+        "protocol": "LAN",
+        "destination": "127.0.0.1",
+        "status": "Success"
+    },
+    {
+        "time": "13:47:18",
+        "file": "ENCRYPTED_background.jpg.aes",
+        "protocol": "LAN",
+        "destination": "127.0.0.1",
+        "status": "Success"
+    },
+    {
+        "time": "10:41:55",
+        "file": "ENCRYPTED_eye_icon.png.aes",
+        "protocol": "Email",
+        "destination": "furqant972@gmail.com",
+        "status": "Failed"
+    },
+    {
+        "time": "10:42:27",
+        "file": "ENCRYPTED_eye_icon.png.aes",
+        "protocol": "Email",
+        "destination": "furqant972@gmail.com",
+        "status": "Failed"
+    },
+    {
+        "time": "10:58:20",
+        "file": "ENCRYPTED_eye_icon.png.aes",
+        "protocol": "Email",
+        "destination": "furqant972@gmail.com",
+        "status": "Failed"
+    },
+    {
+        "time": "10:59:15",
+        "file": "ENCRYPTED_eye_icon.png.aes",
+        "protocol": "LAN",
+        "destination": "127.0.0.1",
+        "status": "Success"
+    },
+    {
+        "time": "11:06:55",
+        "file": "ENCRYPTED_eye_icon.png.aes",
+        "protocol": "LAN",
+        "destination": "127.0.0.1",
+        "status": "Success"
+    },
+    {
+        "time": "11:26:50",
+        "file": "ENCRYPTED_admin_dashboard.py.aes.aes",
+        "protocol": "LAN",
+        "destination": "127.0.0.1",
+        "status": "Failed"
+    },
+    {
+        "time": "19:31:55",
+        "file": "ENCRYPTED_eye_icon.png.aes",
+        "protocol": "LAN",
+        "destination": "127.0.0.1",
+        "status": "Failed"
+    },
+    {
+        "time": "20:48:55",
+        "file": "ENCRYPTED_eye_icon.png.aes",
+        "protocol": "HDD",
+        "destination": "N/A",
+        "status": "Failed"
+    },
+    {
+        "time": "20:50:18",
+        "file": "ENCRYPTED_eye_icon.png.aes",
+        "protocol": "HDD",
+        "destination": "N/A",
+        "status": "Failed"
+    },
+    {
+        "time": "20:58:20",
+        "file": "ENCRYPTED_eye_icon.png.aes",
+        "protocol": "Email",
+        "destination": "furqant972@gmail.com",
+        "status": "Failed"
+    },
+    {
+        "time": "21:13:30",
+        "file": "ENCRYPTED_background.jpg.aes",
+        "protocol": "Email",
+        "destination": "furqant972@gmail.com",
+        "status": "Failed"
+    },
+    {
+        "time": "21:15:43",
+        "file": "ENCRYPTED_background.jpg.aes",
+        "protocol": "Email",
+        "destination": "furqant972@gmail.com",
+        "status": "Failed"
+    },
+    {
+        "time": "21:16:49",
+        "file": "ENCRYPTED_eye_icon.png.aes",
+        "protocol": "Email",
+        "destination": "furqant972@gmail.com",
+        "status": "Failed"
+    },
+    {
+        "time": "21:27:01",
+        "file": "ENCRYPTED_eye_icon.png.aes",
+        "protocol": "Email",
+        "destination": "furqant972@gmail.com",
+        "status": "Failed"
+    },
+    {
+        "time": "21:27:19",
+        "file": "ENCRYPTED_eye_icon.png.aes",
+        "protocol": "HDD",
+        "destination": "D:\\",
+        "status": "Success"
+    },
+    {
+        "time": "21:28:46",
+        "file": "ENCRYPTED_eye_icon.png.aes",
+        "protocol": "LAN",
+        "destination": "127.0.0.1",
+        "status": "Success"
+    },
+    {
+        "time": "21:29:11",
+        "file": "ENCRYPTED_eye_icon.png.aes",
+        "protocol": "Email",
+        "destination": "furqant972@gmail.com",
+        "status": "Failed"
+    },
+    {
+        "time": "21:36:01",
+        "file": "ENCRYPTED_eye_icon.png.aes",
+        "protocol": "LAN",
+        "destination": "127.0.0.1",
+        "status": "Success"
+    },
+    {
+        "time": "21:36:28",
+        "file": "ENCRYPTED_eye_icon.png.aes",
+        "protocol": "Email",
+        "destination": "furqant972@gmail.com",
+        "status": "Failed"
+    },
+    {
+        "time": "21:37:04",
+        "file": "ENCRYPTED_background.jpg.aes",
+        "protocol": "HDD",
+        "destination": "D:\\",
+        "status": "Success"
+    },
+    {
+        "time": "21:42:38",
+        "file": "ENCRYPTED_eye_icon.png.aes",
+        "protocol": "Email",
+        "destination": "furqant972@gmail.com",
+        "status": "Failed"
+    },
+    {
+        "time": "21:43:08",
+        "file": "ENCRYPTED_eye_icon.png.aes",
+        "protocol": "Email",
+        "destination": "furqant972@gmail.com",
+        "status": "Failed"
+    },
+    {
+        "time": "21:47:21",
+        "file": "ENCRYPTED_background.jpg.aes",
+        "protocol": "Email",
+        "destination": "furqant972@gmail.com",
+        "status": "Failed"
+    },
+    {
+        "time": "21:48:11",
+        "file": "ENCRYPTED_background.jpg.aes",
+        "protocol": "LAN",
+        "destination": "127.0.0.1",
+        "status": "Failed"
+    },
+    {
+        "time": "21:56:34",
+        "file": "ENCRYPTED_background.jpg.aes",
+        "protocol": "Email",
+        "destination": "furqant972@gmail.com",
+        "status": "Failed"
+    },
+    {
+        "time": "22:01:25",
+        "file": "ENCRYPTED_eye_icon.png.aes",
+        "protocol": "Email",
+        "destination": "furqant972@gmail.com",
+        "status": "Failed"
+    },
+    {
+        "time": "22:02:22",
+        "file": "ENCRYPTED_eye_icon.png.aes",
+        "protocol": "Email",
+        "destination": "furqant972@gmail.com",
+        "status": "Failed"
+    },
+    {
+        "time": "22:09:28",
+        "file": "ENCRYPTED_background.jpg.aes",
+        "protocol": "Email",
+        "destination": "furqant972@gmail.com",
+        "status": "Failed"
+    },
+    {
+        "time": "22:18:16",
+        "file": "ENCRYPTED_background.jpg.aes",
+        "protocol": "Email",
+        "destination": "furqant972@gmail.com",
+        "status": "Success"
+    },
+    {
+        "time": "22:19:07",
+        "file": "ENCRYPTED_eye_icon.png.aes",
+        "protocol": "Email",
+        "destination": "munirchaudary04@gmail.com",
+        "status": "Success"
+    },
+    {
+        "time": "22:19:21",
+        "file": "ENCRYPTED_eye_icon.png.aes",
+        "protocol": "Email",
+        "destination": "furqant972@gmail.com",
+        "status": "Success"
+    },
+    {
+        "time": "22:26:09",
+        "file": "ENCRYPTED_eye_icon.png.aes",
+        "protocol": "Email",
+        "destination": "furqant972@gmail.com",
+        "status": "Failed"
+    },
+    {
+        "time": "22:26:27",
+        "file": "ENCRYPTED_eye_icon.png.aes",
+        "protocol": "Email",
+        "destination": "furqant972@gmail.com",
+        "status": "Failed"
+    },
+    {
+        "time": "22:28:57",
+        "file": "ENCRYPTED_eye_icon.png.aes",
+        "protocol": "Email",
+        "destination": "furqant972@gmail.com",
+        "status": "Failed"
+    },
+    {
+        "time": "22:29:42",
+        "file": "ENCRYPTED_eye_icon.png.aes",
+        "protocol": "Email",
+        "destination": "munirchaudary04@gmail.com",
+        "status": "Failed"
+    },
+    {
+        "time": "22:33:14",
+        "file": "ENCRYPTED_eye_icon.png.aes",
+        "protocol": "Email",
+        "destination": "furqant972@gmail.com",
+        "status": "Failed"
+    },
+    {
+        "time": "22:34:34",
+        "file": "ENCRYPTED_eye_icon.png.aes",
+        "protocol": "Email",
+        "destination": "furqant972@gmail.com",
+        "status": "Failed"
+    },
+    {
+        "time": "22:36:43",
+        "file": "ENCRYPTED_background.jpg.aes",
+        "protocol": "Email",
+        "destination": "furqant972@gmail.com",
+        "status": "Failed"
+    },
+    {
+        "time": "22:38:39",
+        "file": "ENCRYPTED_eye_icon.png.aes",
+        "protocol": "Email",
+        "destination": "furqant972@gmail.com",
+        "status": "Failed"
+    },
+    {
+        "time": "22:39:48",
+        "file": "ENCRYPTED_eye_icon.png.aes",
+        "protocol": "Email",
+        "destination": "furqant972@gmail.com",
+        "status": "Failed"
+    },
+    {
+        "time": "22:42:48",
+        "file": "ENCRYPTED_eye_icon.png.aes",
+        "protocol": "Email",
+        "destination": "furqant972@gmail.com",
+        "status": "Failed"
+    },
+    {
+        "time": "10:35:58",
+        "file": "ENCRYPTED_eye_icon.png.aes",
+        "protocol": "Email",
+        "destination": "furqant972@gmail.com",
+        "status": "Failed"
+    },
+    {
+        "time": "10:43:30",
+        "file": "ENCRYPTED_background.jpg.aes",
+        "protocol": "Email",
+        "destination": "furqant972@gmail.com",
+        "status": "Success"
+    },
+    {
+        "time": "10:49:19",
+        "file": "ENCRYPTED_eye_icon.png.aes",
+        "protocol": "Email",
+        "destination": "furqant972@gmail.com",
+        "status": "Success"
+    },
+    {
+        "time": "10:57:16",
+        "file": "ENCRYPTED_background.jpg.aes",
+        "protocol": "Email",
+        "destination": "furqant972@gmail.com",
+        "status": "Success"
+    },
+    {
+        "time": "11:22:30",
+        "file": "ENCRYPTED_aaa (1).PNG.aes",
+        "protocol": "Email",
+        "destination": "furqant972@gmail.com",
+        "status": "Success"
+    },
+    {
+        "time": "11:35:33",
+        "file": "ENCRYPTED_eye_icon.png.aes",
+        "protocol": "Email",
+        "destination": "furqant972@gmail.com",
+        "status": "Success"
+    },
+    {
+        "time": "11:36:28",
+        "file": "ENCRYPTED_k (1).PNG.aes",
+        "protocol": "Email",
+        "destination": "furqant972@gmail.com",
+        "status": "Success"
+    },
+    {
+        "time": "11:38:32",
+        "file": "ENCRYPTED_issue with cnic (1) (1) (1).png.aes",
+        "protocol": "Email",
+        "destination": "furqant972@gmail.com",
+        "status": "Success"
+    },
+    {
+        "time": "11:41:47",
+        "file": "ENCRYPTED_eye_icon.png.aes",
+        "protocol": "Email",
+        "destination": "furqant972@gmail.com",
+        "status": "Success"
+    },
+    {
+        "time": "11:42:50",
+        "file": "ENCRYPTED_issue with cnic (1) (1) (1).png.aes",
+        "protocol": "Email",
+        "destination": "furqant972@gmail.com",
+        "status": "Success"
+    },
+    {
+        "time": "11:46:47",
+        "file": "ENCRYPTED_issue with cnic (1) (1).png.aes",
+        "protocol": "Email",
+        "destination": "furqant972@gmail.com",
+        "status": "Success"
+    },
+    {
+        "time": "11:55:02",
+        "file": "ENCRYPTED_New cv (1).pdf.aes",
+        "protocol": "Email",
+        "destination": "furqant972@gmail.com",
+        "status": "Success"
+    },
+    {
+        "time": "11:55:49",
+        "file": "ENCRYPTED_k (1) (9).PNG.aes",
+        "protocol": "Email",
+        "destination": "furqant972@gmail.com",
+        "status": "Success"
+    },
+    {
+        "time": "21:02:18",
+        "file": "ENCRYPTED_background.jpg.aes",
+        "protocol": "Email",
+        "destination": "furqant972@gmail.com",
+        "status": "Success"
+    },
+    {
+        "time": "21:02:39",
+        "file": "ENCRYPTED_background.jpg.aes",
+        "protocol": "LAN",
+        "destination": "127.0.0.1",
+        "status": "Success"
+    },
+    {
+        "time": "21:21:21",
+        "file": "ENCRYPTED_background.jpg.aes",
+        "protocol": "HDD",
+        "destination": "N/A",
+        "status": "Failed"
+    },
+    {
+        "time": "21:23:31",
+        "file": "ENCRYPTED_1.PNG.aes",
+        "protocol": "HDD",
+        "destination": "N/A",
+        "status": "Failed"
+    },
+    {
+        "time": "21:24:27",
+        "file": "ENCRYPTED_1.PNG.aes",
+        "protocol": "LAN",
+        "destination": "127.0.0.1",
+        "status": "Failed"
+    },
+    {
+        "time": "21:24:55",
+        "file": "ENCRYPTED_1.PNG.aes",
+        "protocol": "LAN",
+        "destination": "127.0.0.1",
+        "status": "Success"
+    },
+    {
+        "time": "21:25:51",
+        "file": "ENCRYPTED_1.PNG.aes",
+        "protocol": "Email",
+        "destination": "furqant972@gmail.com",
+        "status": "Success"
+    },
+    {
+        "time": "21:28:16",
+        "file": "ENCRYPTED_1.PNG.aes",
+        "protocol": "HDD",
+        "destination": "N/A",
+        "status": "Failed"
+    },
+    {
+        "time": "21:43:21",
+        "file": "ENCRYPTED_k (1).PNG.aes",
+        "protocol": "Email",
+        "destination": "furqant972@gmail.com",
+        "status": "Success"
+    },
+    {
+        "time": "21:48:10",
+        "file": "ENCRYPTED_k (1).PNG.aes",
+        "protocol": "HDD",
+        "destination": "N/A",
+        "status": "Failed"
+    },
+    {
+        "time": "21:50:16",
+        "file": "ENCRYPTED_1.PNG.aes",
+        "protocol": "HDD",
+        "destination": "N/A",
+        "status": "Failed"
+    },
+    {
+        "time": "21:57:15",
+        "file": "ENCRYPTED_background.jpg.aes",
+        "protocol": "Email",
+        "destination": "furqant972@gmail.com",
+        "status": "Success"
+    },
+    {
+        "time": "22:00:45",
+        "file": "ENCRYPTED_MC.PNG.aes",
+        "protocol": "Email",
+        "destination": "furqant972@gmail.com",
+        "status": "Success"
+    },
+    {
+        "time": "22:04:49",
+        "file": "ENCRYPTED_aaa (1).PNG.aes",
+        "protocol": "Email",
+        "destination": "furqant972@gmail.com",
+        "status": "Success"
+    },
+    {
+        "time": "22:14:06",
+        "file": "ENCRYPTED_MC.PNG.aes",
+        "protocol": "HDD",
+        "destination": "D:\\Forensic_Transfers",
+        "status": "Success"
+    },
+    {
+        "time": "22:34:50",
+        "file": "ENCRYPTED_MC.PNG.aes",
+        "protocol": "Email",
+        "destination": "furqant972@gmail.com",
+        "status": "Success"
+    },
+    {
+        "time": "22:45:06",
+        "file": "ENCRYPTED_MC.PNG.aes",
+        "protocol": "HDD",
+        "destination": "N/A",
+        "status": "Failed"
+    },
+    {
+        "time": "08:59:28",
+        "file": "ENCRYPTED_saliha.PNG.aes",
+        "protocol": "HDD",
+        "destination": "D:\\Forensic_Transfers",
+        "status": "Success"
+    },
+    {
+        "time": "09:09:15",
+        "file": "ENCRYPTED_imp.PNG.aes",
+        "protocol": "HDD",
+        "destination": "D:\\Forensic_Transfers",
+        "status": "Success"
+    },
+    {
+        "time": "09:18:15",
+        "file": "ENCRYPTED_11111.PNG.aes",
+        "protocol": "HDD",
+        "destination": "D:\\Forensic_Transfers",
+        "status": "Success"
+    },
+    {
+        "time": "16:35:25",
+        "file": "ENCRYPTED_eye_icon.png.aes",
+        "protocol": "Email",
+        "destination": "furqant972@gmail.com",
+        "status": "Success"
+    },
+    {
+        "time": "16:41:54",
+        "file": "ENCRYPTED_admin_dashboard.py.aes",
+        "protocol": "Email",
+        "destination": "furqant972@gmail.com",
+        "status": "Success"
+    },
+    {
+        "time": "16:43:20",
+        "file": "ENCRYPTED_admin_dashboard.py.aes",
+        "protocol": "HDD",
+        "destination": "D:\\Forensic_Transfers",
+        "status": "Success"
+    },
+    {
+        "time": "19:34:06",
+        "file": "ENCRYPTED_app.py.aes",
+        "protocol": "Email",
+        "destination": "furqant972@gmail.com",
+        "status": "Success"
+    },
+    {
+        "time": "19:41:07",
+        "file": "ENCRYPTED_app.py.aes",
+        "protocol": "Email",
+        "destination": "furqant972@gmail.com",
+        "status": "Success"
+    },
+    {
+        "time": "19:56:03",
+        "file": "ENCRYPTED_659615499_1263121765364194_3247959748886471751_n.jpg.aes",
+        "protocol": "LAN",
+        "destination": "127.0.0.1",
+        "status": "Success"
+    },
+    {
+        "time": "20:06:41",
+        "file": "ENCRYPTED_monitor_service.py.aes",
+        "protocol": "LAN",
+        "destination": "127.0.0.1",
+        "status": "Success"
+    },
+    {
+        "time": "20:10:40",
+        "file": "ENCRYPTED_use cases.docx.aes",
+        "protocol": "LAN",
+        "destination": "127.0.0.1",
+        "status": "Success"
+    },
+    {
+        "time": "20:12:41",
+        "file": "ENCRYPTED_659615499_1263121765364194_3247959748886471751_n.jpg.aes",
+        "protocol": "Email",
+        "destination": "furqant972@gmail.com",
+        "status": "Success"
+    },
+    {
+        "time": "20:15:44",
+        "file": "ENCRYPTED_WhatsApp Image 2026-04-03 at 11.01.49 AM.jpeg.aes",
+        "protocol": "LAN",
+        "destination": "127.0.0.1",
+        "status": "Success"
+    },
+    {
+        "time": "20:18:54",
+        "file": "ENCRYPTED_WhatsApp Image 2026-04-03 at 11.01.50 AM.jpeg.aes",
+        "protocol": "LAN",
+        "destination": "127.0.0.1",
+        "status": "Success"
+    },
+    {
+        "time": "20:42:27",
+        "file": "ENCRYPTED_WhatsApp Video 2026-04-03 at 7.06.56 PM.mp4.aes",
+        "protocol": "LAN",
+        "destination": "127.0.0.1",
+        "status": "Success"
+    },
+    {
+        "time": "20:50:36",
+        "file": "ENCRYPTED_659615499_1263121765364194_3247959748886471751_n.jpg.aes",
+        "protocol": "LAN",
+        "destination": "127.0.0.1",
+        "status": "Success"
+    },
+    {
+        "time": "20:53:05",
+        "file": "ENCRYPTED_659615499_1263121765364194_3247959748886471751_n.jpg.aes",
+        "protocol": "LAN",
+        "destination": "127.0.0.1",
+        "status": "Success"
+    },
+    {
+        "time": "11:11:21",
+        "file": "ENCRYPTED_admin_dashboard.py.aes",
+        "protocol": "Email",
+        "destination": "munirchaudary04@gmail.com",
+        "status": "Success"
+    },
+    {
+        "time": "11:16:24",
+        "file": "ENCRYPTED_notifications.json.aes",
+        "protocol": "Email",
+        "destination": "furqant972@gmail.com",
+        "status": "Success"
+    },
+    {
+        "time": "11:24:12",
+        "file": "ENCRYPTED_111.PNG.aes",
+        "protocol": "Email",
+        "destination": "furqant972@gmail.com",
+        "status": "Success"
+    },
+    {
+        "time": "11:33:16",
+        "file": "ENCRYPTED_111.PNG.aes",
+        "protocol": "Email",
+        "destination": "furqant972@gmail.com",
+        "status": "Success"
+    },
+    {
+        "time": "11:56:04",
+        "file": "ENCRYPTED_eye_icon.png.aes",
+        "protocol": "Email",
+        "destination": "furqant972@gmail.com",
+        "status": "Success"
+    },
+    {
+        "time": "12:22:45",
+        "file": "ENCRYPTED_background.jpg.aes",
+        "protocol": "Email",
+        "destination": "furqant972@gmail.com",
+        "status": "Success"
+    },
+    {
+        "time": "12:32:53",
+        "file": "ENCRYPTED_eye_icon.png.aes",
+        "protocol": "Email",
+        "destination": "furqant972@gmail.com",
+        "status": "Success"
+    },
+    {
+        "time": "13:10:36",
+        "file": "ENCRYPTED_background.jpg.aes",
+        "protocol": "Email",
+        "destination": "furqant972@gmail.com",
+        "status": "Success"
+    },
+    {
+        "time": "13:20:56",
+        "file": "ENCRYPTED_eye_icon.png.aes",
+        "protocol": "Email",
+        "destination": "furqant972@gmail.com",
+        "status": "Success"
+    },
+    {
+        "time": "21:09:03",
+        "file": "ENCRYPTED_background.jpg.aes",
+        "protocol": "Email",
+        "destination": "furqant972@gmail.com",
+        "status": "Success"
+    }
+]
