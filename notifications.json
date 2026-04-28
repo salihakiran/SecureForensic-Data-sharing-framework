@@ -1,0 +1,686 @@
+[
+    {
+        "text": "\u2705 21:38 | Transfer Alert\nProtocol: LAN (Success)",
+        "is_read": true,
+        "timestamp": "2026-03-13 21:38:40"
+    },
+    {
+        "text": "\u2705 21:43 | Transfer\nData sent via Email successfully.",
+        "is_read": true,
+        "time": "21:43"
+    },
+    {
+        "text": "\u2705 21:51 | Encryption\nFile encrypted successfully!",
+        "is_read": true,
+        "timestamp": "2026-03-13 21:51:39"
+    },
+    {
+        "text": "\u2705 21:51 | Encryption\nFile encrypted successfully!",
+        "is_read": true,
+        "timestamp": "2026-03-13 21:51:40"
+    },
+    {
+        "text": "\u2705 21:51 | Encryption\nFile encrypted successfully!",
+        "is_read": true,
+        "timestamp": "2026-03-13 21:51:52"
+    },
+    {
+        "text": "\u2705 21:51 | Encryption\nFile encrypted successfully!",
+        "is_read": true,
+        "timestamp": "2026-03-13 21:51:53"
+    },
+    {
+        "text": "\u2705 21:51 | Encryption\nFile encrypted successfully!",
+        "is_read": true,
+        "timestamp": "2026-03-13 21:51:54"
+    },
+    {
+        "text": "[Success] Transfer Alert: Protocol: LAN (Success)",
+        "is_read": true
+    },
+    {
+        "text": "\u2705 22:07 | Transfer Alert\nProtocol: LAN (Success)",
+        "is_read": true,
+        "timestamp": "2026-03-13 22:07:42"
+    },
+    {
+        "text": "\u2705 10:31 | Transfer Alert\nProtocol: LAN (Success)",
+        "is_read": true,
+        "timestamp": "2026-03-14 10:31:10"
+    },
+    {
+        "text": "\u2705 15:17 | Transfer Alert\nProtocol: LAN (Success)",
+        "is_read": true,
+        "timestamp": "2026-03-14 15:17:42"
+    },
+    {
+        "text": "\u2705 15:29 | Transfer Alert\nProtocol: LAN (Success)",
+        "is_read": true,
+        "timestamp": "2026-03-14 15:29:35"
+    },
+    {
+        "text": "\u2705 15:44 | Transfer Alert\nProtocol: LAN (Success)",
+        "is_read": true,
+        "timestamp": "2026-03-14 15:44:33"
+    },
+    {
+        "text": "\u2705 15:47 | Transfer Alert\nProtocol: USB (Success)",
+        "is_read": true,
+        "timestamp": "2026-03-14 15:47:22"
+    },
+    {
+        "text": "\u2705 15:47 | Transfer Alert\nProtocol: HDD (Success)",
+        "is_read": true,
+        "timestamp": "2026-03-14 15:47:29"
+    },
+    {
+        "text": "\u2705 15:47 | Transfer Alert\nProtocol: LAN (Success)",
+        "is_read": true,
+        "timestamp": "2026-03-14 15:47:31"
+    },
+    {
+        "text": "\u2705 15:48 | Transfer Alert\nProtocol: USB (Success)",
+        "is_read": true,
+        "timestamp": "2026-03-14 15:48:54"
+    },
+    {
+        "text": "\u2705 15:48 | Transfer Alert\nProtocol: HDD (Success)",
+        "is_read": true,
+        "timestamp": "2026-03-14 15:48:55"
+    },
+    {
+        "text": "\u2705 15:48 | Transfer Alert\nProtocol: LAN (Success)",
+        "is_read": true,
+        "timestamp": "2026-03-14 15:48:56"
+    },
+    {
+        "text": "\u2705 15:49 | Transfer Alert\nProtocol: Email (Success)",
+        "is_read": true,
+        "timestamp": "2026-03-14 15:49:09"
+    },
+    {
+        "text": "\u274c [16:04:08] LAN Transfer\nTransfer failed: [WinError 10061] No connection could be made because the target machine actively refused it",
+        "is_read": true,
+        "timestamp": "2026-03-14 16:04:08"
+    },
+    {
+        "text": "\u2705 [16:05:12] Email Transfer\nEmail sent to furqant972@gmail.com",
+        "is_read": true,
+        "timestamp": "2026-03-14 16:05:12"
+    },
+    {
+        "text": "\u274c [16:05:26] LAN Transfer\nTransfer failed: [WinError 10061] No connection could be made because the target machine actively refused it",
+        "is_read": true,
+        "timestamp": "2026-03-14 16:05:26"
+    },
+    {
+        "text": "\u2705 [16:07:07] LAN Transfer\nFile sent to 127.0.0.1 successfully",
+        "is_read": true,
+        "timestamp": "2026-03-14 16:07:07"
+    },
+    {
+        "text": "\u2705 [16:09:26] Email Transfer\nEmail sent to furqant972@gmail.com",
+        "is_read": true,
+        "timestamp": "2026-03-14 16:09:26"
+    },
+    {
+        "text": "\u2705 [16:13:07] Email Transfer\nEmail sent to furqant972@gmail.com",
+        "is_read": true,
+        "timestamp": "2026-03-14 16:13:07"
+    },
+    {
+        "text": "\u2705 [16:16:04] Email Transfer\nEmail sent to f12@gmail.com",
+        "is_read": true,
+        "timestamp": "2026-03-14 16:16:04"
+    },
+    {
+        "text": "\u274c [16:16:48] LAN Transfer\nTransfer failed: [WinError 10061] No connection could be made because the target machine actively refused it",
+        "is_read": true,
+        "timestamp": "2026-03-14 16:16:48"
+    },
+    {
+        "text": "\u2705 [16:23:29] Email Transfer\nEmail sent to j2@gmail.com",
+        "is_read": true,
+        "timestamp": "2026-03-14 16:23:29"
+    },
+    {
+        "text": "\u274c [16:28:17] LAN Transfer: Transfer failed: [WinError 10061] No connection could be made because the target machine actively refused it",
+        "is_read": true,
+        "timestamp": "2026-03-14 16:28:17"
+    },
+    {
+        "text": "\u274c [16:30:17] LAN Transfer\n      \u21b3 Transfer failed: [WinError 10061] No connection could be made because the target machine actively refused it",
+        "is_read": true,
+        "timestamp": "2026-03-14 16:30:17"
+    },
+    {
+        "text": "\u2705 [20:20:03] LAN Transfer: File sent to 127.0.0.1 successfully",
+        "is_read": true,
+        "timestamp": "2026-03-14 20:20:03"
+    },
+    {
+        "text": "\u2705 [10:55:22] LAN Transfer: File sent to 127.0.0.1 successfully",
+        "is_read": true,
+        "timestamp": "2026-03-17 10:55:22"
+    },
+    {
+        "text": "\u2705 [11:00:10] LAN Transfer: File sent to 127.0.0.1 successfully",
+        "is_read": true,
+        "timestamp": "2026-03-17 11:00:10"
+    },
+    {
+        "text": "\u2705 [11:06:56] LAN Transfer: File sent to 127.0.0.1 successfully",
+        "is_read": true,
+        "timestamp": "2026-03-17 11:06:56"
+    },
+    {
+        "text": "\u2705 [12:19:44] LAN Transfer: File sent to 127.0.0.1 successfully",
+        "is_read": true,
+        "timestamp": "2026-03-17 12:19:44"
+    },
+    {
+        "text": "\u2705 [13:47:18] LAN Transfer: File sent to 127.0.0.1 successfully",
+        "is_read": true,
+        "timestamp": "2026-03-17 13:47:18"
+    },
+    {
+        "text": "\u274c [10:41:54] Email Transfer: Failed: 'SMTP' object has no attribute 'settimeout'",
+        "is_read": true,
+        "timestamp": "2026-03-24 10:41:55"
+    },
+    {
+        "text": "\u274c [10:42:27] Email Transfer: Failed: 'SMTP' object has no attribute 'settimeout'",
+        "is_read": true,
+        "timestamp": "2026-03-24 10:42:27"
+    },
+    {
+        "text": "\u274c [10:58:20] Email Transfer: Failed: 'SMTP' object has no attribute 'settimeout'",
+        "is_read": true,
+        "timestamp": "2026-03-24 10:58:20"
+    },
+    {
+        "text": "\u2705 [10:59:15] LAN Transfer: File sent to 127.0.0.1 successfully",
+        "is_read": true,
+        "timestamp": "2026-03-24 10:59:15"
+    },
+    {
+        "text": "\u2705 [11:06:55] LAN Transfer: File sent to 127.0.0.1 successfully",
+        "is_read": true,
+        "timestamp": "2026-03-24 11:06:55"
+    },
+    {
+        "text": "\u274c [11:26:50] LAN Transfer: Transfer failed: [WinError 10061] No connection could be made because the target machine actively refused it",
+        "is_read": true,
+        "timestamp": "2026-03-24 11:26:50"
+    },
+    {
+        "text": "\u274c [19:31:55] LAN Transfer: Transfer failed: [WinError 10061] No connection could be made because the target machine actively refused it",
+        "is_read": true,
+        "timestamp": "2026-03-24 19:31:55"
+    },
+    {
+        "text": "\u274c [20:48:55] HDD Transfer: Failed to copy file",
+        "is_read": true,
+        "timestamp": "2026-03-24 20:48:55"
+    },
+    {
+        "text": "\u274c [20:50:18] HDD Transfer: Failed to copy file",
+        "is_read": true,
+        "timestamp": "2026-03-24 20:50:18"
+    },
+    {
+        "text": "\u274c [20:58:20] Email Transfer: Failed: 'SMTP' object has no attribute 'settimeout'",
+        "is_read": true,
+        "timestamp": "2026-03-24 20:58:20"
+    },
+    {
+        "text": "\u274c [21:13:30] Email Transfer: Failed: 'SMTP' object has no attribute 'settimeout'",
+        "is_read": true,
+        "timestamp": "2026-03-24 21:13:30"
+    },
+    {
+        "text": "\u274c [21:15:43] Email Transfer: Failed: 'SMTP' object has no attribute 'settimeout'",
+        "is_read": true,
+        "timestamp": "2026-03-24 21:15:43"
+    },
+    {
+        "text": "\u274c [21:16:49] Email Transfer: Failed: 'SMTP' object has no attribute 'settimeout'",
+        "is_read": true,
+        "timestamp": "2026-03-24 21:16:49"
+    },
+    {
+        "text": "\u274c [21:27:01] Email Transfer: Failed: 'SMTP' object has no attribute 'settimeout'",
+        "is_read": true,
+        "timestamp": "2026-03-24 21:27:01"
+    },
+    {
+        "text": "\u2705 [21:27:19] HDD Transfer: File copied to D:\\",
+        "is_read": true,
+        "timestamp": "2026-03-24 21:27:19"
+    },
+    {
+        "text": "\u2705 [21:28:46] LAN Transfer: File sent to 127.0.0.1 successfully",
+        "is_read": true,
+        "timestamp": "2026-03-24 21:28:46"
+    },
+    {
+        "text": "\u274c [21:29:11] Email Transfer: Failed: 'SMTP' object has no attribute 'settimeout'",
+        "is_read": true,
+        "timestamp": "2026-03-24 21:29:11"
+    },
+    {
+        "text": "\u2705 [21:36:01] LAN Transfer: File sent to 127.0.0.1 successfully",
+        "is_read": true,
+        "timestamp": "2026-03-24 21:36:01"
+    },
+    {
+        "text": "\u274c [21:36:28] Email Transfer: Failed: 'SMTP' object has no attribute 'settimeout'",
+        "is_read": true,
+        "timestamp": "2026-03-24 21:36:28"
+    },
+    {
+        "text": "\u2705 [21:37:04] HDD Transfer: File copied to D:\\",
+        "is_read": true,
+        "timestamp": "2026-03-24 21:37:04"
+    },
+    {
+        "text": "\u274c [21:42:38] Email Transfer: Failed: 'SMTP' object has no attribute 'settimeout'",
+        "is_read": true,
+        "timestamp": "2026-03-24 21:42:38"
+    },
+    {
+        "text": "\u274c [21:43:08] Email Transfer: Failed: 'SMTP' object has no attribute 'settimeout'",
+        "is_read": true,
+        "timestamp": "2026-03-24 21:43:08"
+    },
+    {
+        "text": "\u274c [21:47:21] Email Transfer: Failed: 'SMTP' object has no attribute 'settimeout'",
+        "is_read": true,
+        "timestamp": "2026-03-24 21:47:21"
+    },
+    {
+        "text": "\u274c [21:48:11] LAN Transfer: Transfer failed: [WinError 10061] No connection could be made because the target machine actively refused it",
+        "is_read": true,
+        "timestamp": "2026-03-24 21:48:11"
+    },
+    {
+        "text": "\u274c [21:56:34] Email Transfer: Failed: 'SMTP' object has no attribute 'settimeout'",
+        "is_read": true,
+        "timestamp": "2026-03-24 21:56:34"
+    },
+    {
+        "text": "\u274c [22:01:25] Email Transfer: Failed: 'SMTP' object has no attribute 'settimeout'",
+        "is_read": true,
+        "timestamp": "2026-03-24 22:01:25"
+    },
+    {
+        "text": "\u274c [22:02:22] Email Transfer: Failed: 'SMTP' object has no attribute 'settimeout'",
+        "is_read": true,
+        "timestamp": "2026-03-24 22:02:22"
+    },
+    {
+        "text": "\u274c [22:09:28] Email Transfer: Failed: 'SMTP' object has no attribute 'settimeout'",
+        "is_read": true,
+        "timestamp": "2026-03-24 22:09:28"
+    },
+    {
+        "text": "\u2705 [22:18:16] Email Transfer: Sent to furqant972@gmail.com",
+        "is_read": true,
+        "timestamp": "2026-03-24 22:18:16"
+    },
+    {
+        "text": "\u2705 [22:19:07] Email Transfer: Sent to munirchaudary04@gmail.com",
+        "is_read": true,
+        "timestamp": "2026-03-24 22:19:07"
+    },
+    {
+        "text": "\u2705 [22:19:21] Email Transfer: Sent to furqant972@gmail.com",
+        "is_read": true,
+        "timestamp": "2026-03-24 22:19:21"
+    },
+    {
+        "text": "\u274c [22:26:09] Email Transfer: Failed: (535, b'5.7.8 Username and Password not accepted. For more information, go to\\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-82b0410a3d7sm13725457b3a.55 - gsmtp')",
+        "is_read": true,
+        "timestamp": "2026-03-24 22:26:09"
+    },
+    {
+        "text": "\u274c [22:26:27] Email Transfer: Failed: (535, b'5.7.8 Username and Password not accepted. For more information, go to\\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2b083683a8fsm140520785ad.66 - gsmtp')",
+        "is_read": true,
+        "timestamp": "2026-03-24 22:26:27"
+    },
+    {
+        "text": "\u274c [22:28:57] Email Transfer: Failed: (535, b'5.7.8 Username and Password not accepted. For more information, go to\\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-82b0409c11asm12420932b3a.30 - gsmtp')",
+        "is_read": true,
+        "timestamp": "2026-03-24 22:28:57"
+    },
+    {
+        "text": "\u274c [22:29:42] Email Transfer: Failed: (535, b'5.7.8 Username and Password not accepted. For more information, go to\\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2b08354bce3sm189013355ad.32 - gsmtp')",
+        "is_read": true,
+        "timestamp": "2026-03-24 22:29:42"
+    },
+    {
+        "text": "\u274c [22:33:14] Email Transfer: Failed: (535, b'5.7.8 Username and Password not accepted. For more information, go to\\n5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-35c0dca9c65sm21706a91.3 - gsmtp')",
+        "is_read": true,
+        "timestamp": "2026-03-24 22:33:14"
+    },
+    {
+        "text": "\u274c [22:34:34] Email Transfer: Failed: (535, b'5.7.8 Username and Password not accepted. For more information, go to\\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-82b0409c480sm13241680b3a.35 - gsmtp')",
+        "is_read": true,
+        "timestamp": "2026-03-24 22:34:34"
+    },
+    {
+        "text": "\u274c [22:36:43] Email Transfer: Failed: (535, b'5.7.8 Username and Password not accepted. For more information, go to\\n5.7.8  https://support.google.com/mail/?p=BadCredentials 41be03b00d2f7-c7668abb157sm52406a12.32 - gsmtp')",
+        "is_read": true,
+        "timestamp": "2026-03-24 22:36:43"
+    },
+    {
+        "text": "\u274c [22:38:39] Email Transfer: Failed: (535, b'5.7.8 Username and Password not accepted. For more information, go to\\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2b0aa622677sm26141595ad.74 - gsmtp')",
+        "is_read": true,
+        "timestamp": "2026-03-24 22:38:39"
+    },
+    {
+        "text": "\u274c [22:39:48] Email Transfer: Failed: (535, b'5.7.8 Username and Password not accepted. For more information, go to\\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2b0836a3066sm150970885ad.75 - gsmtp')",
+        "is_read": true,
+        "timestamp": "2026-03-24 22:39:48"
+    },
+    {
+        "text": "\u274c [22:42:48] Email Transfer: Failed: (535, b'5.7.8 Username and Password not accepted. For more information, go to\\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-82c6eec021csm109792b3a.0 - gsmtp')",
+        "is_read": true,
+        "timestamp": "2026-03-24 22:42:48"
+    },
+    {
+        "text": "\u274c [10:35:58] Email Transfer: Failed: (535, b'5.7.8 Username and Password not accepted. For more information, go to\\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-82b03aaabdesm14521958b3a.5 - gsmtp')",
+        "is_read": true,
+        "timestamp": "2026-03-25 10:35:58"
+    },
+    {
+        "text": "\u2705 [10:43:30] Email Transfer: Sent to furqant972@gmail.com",
+        "is_read": true,
+        "timestamp": "2026-03-25 10:43:30"
+    },
+    {
+        "text": "\u2705 [10:49:19] Email Transfer: Sent to furqant972@gmail.com",
+        "is_read": true,
+        "timestamp": "2026-03-25 10:49:19"
+    },
+    {
+        "text": "\u2705 [10:57:16] Email Transfer: Sent to furqant972@gmail.com",
+        "is_read": true,
+        "timestamp": "2026-03-25 10:57:16"
+    },
+    {
+        "text": "\u2705 [11:22:30] Email Transfer: Sent to furqant972@gmail.com",
+        "is_read": true,
+        "timestamp": "2026-03-25 11:22:30"
+    },
+    {
+        "text": "\u2705 [11:35:33] Email Transfer: Sent to furqant972@gmail.com",
+        "is_read": true,
+        "timestamp": "2026-03-25 11:35:33"
+    },
+    {
+        "text": "\u2705 [11:36:28] Email Transfer: Sent to furqant972@gmail.com",
+        "is_read": true,
+        "timestamp": "2026-03-25 11:36:28"
+    },
+    {
+        "text": "\u2705 [11:38:32] Email Transfer: Sent to furqant972@gmail.com",
+        "is_read": true,
+        "timestamp": "2026-03-25 11:38:32"
+    },
+    {
+        "text": "\u2705 [11:41:47] Email Transfer: Sent to furqant972@gmail.com",
+        "is_read": true,
+        "timestamp": "2026-03-25 11:41:47"
+    },
+    {
+        "text": "\u2705 [11:42:50] Email Transfer: Sent to furqant972@gmail.com",
+        "is_read": true,
+        "timestamp": "2026-03-25 11:42:50"
+    },
+    {
+        "text": "\u2705 [11:46:47] Email Transfer: Sent to furqant972@gmail.com",
+        "is_read": true,
+        "timestamp": "2026-03-25 11:46:47"
+    },
+    {
+        "text": "\u2705 [11:55:02] Email Transfer: Sent to furqant972@gmail.com",
+        "is_read": true,
+        "timestamp": "2026-03-25 11:55:02"
+    },
+    {
+        "text": "\u2705 [11:55:49] Email Transfer: Sent to furqant972@gmail.com",
+        "is_read": true,
+        "timestamp": "2026-03-25 11:55:49"
+    },
+    {
+        "text": "\u2705 [21:02:18] Email Transfer: Sent to furqant972@gmail.com",
+        "is_read": true,
+        "timestamp": "2026-03-25 21:02:18"
+    },
+    {
+        "text": "\u2705 [21:02:39] LAN Transfer: File sent to 127.0.0.1 successfully",
+        "is_read": true,
+        "timestamp": "2026-03-25 21:02:39"
+    },
+    {
+        "text": "\u274c [21:21:21] HDD Transfer: Failed to copy file",
+        "is_read": true,
+        "timestamp": "2026-03-25 21:21:21"
+    },
+    {
+        "text": "\u274c [21:23:31] HDD Transfer: Failed to copy file",
+        "is_read": true,
+        "timestamp": "2026-03-25 21:23:31"
+    },
+    {
+        "text": "\u274c [21:24:27] LAN Transfer: Transfer failed: [WinError 10061] No connection could be made because the target machine actively refused it",
+        "is_read": true,
+        "timestamp": "2026-03-25 21:24:27"
+    },
+    {
+        "text": "\u2705 [21:24:55] LAN Transfer: File sent to 127.0.0.1 successfully",
+        "is_read": true,
+        "timestamp": "2026-03-25 21:24:55"
+    },
+    {
+        "text": "\u2705 [21:25:51] Email Transfer: Sent to furqant972@gmail.com",
+        "is_read": true,
+        "timestamp": "2026-03-25 21:25:51"
+    },
+    {
+        "text": "\u274c [21:28:16] HDD Transfer: Failed to copy file",
+        "is_read": true,
+        "timestamp": "2026-03-25 21:28:16"
+    },
+    {
+        "text": "\u2705 [21:43:20] Email Transfer: Sent to furqant972@gmail.com",
+        "is_read": true,
+        "timestamp": "2026-03-25 21:43:21"
+    },
+    {
+        "text": "\u274c [21:48:10] HDD Transfer: Failed to copy file",
+        "is_read": true,
+        "timestamp": "2026-03-25 21:48:10"
+    },
+    {
+        "text": "\u274c [21:50:16] HDD Transfer: Failed to copy file",
+        "is_read": true,
+        "timestamp": "2026-03-25 21:50:16"
+    },
+    {
+        "text": "\u2705 [21:57:15] Email Transfer: Sent to furqant972@gmail.com",
+        "is_read": true,
+        "timestamp": "2026-03-25 21:57:15"
+    },
+    {
+        "text": "\u2705 [22:00:45] Email Transfer: Sent to furqant972@gmail.com",
+        "is_read": true,
+        "timestamp": "2026-03-25 22:00:45"
+    },
+    {
+        "text": "\u2705 [22:04:49] Email Transfer: Sent to furqant972@gmail.com",
+        "is_read": true,
+        "timestamp": "2026-03-25 22:04:49"
+    },
+    {
+        "text": "\u2705 [22:14:06] HDD Transfer: File copied to D:\\Forensic_Transfers",
+        "is_read": true,
+        "timestamp": "2026-03-25 22:14:06"
+    },
+    {
+        "text": "\u2705 [22:34:50] Email Transfer: Sent to furqant972@gmail.com",
+        "is_read": true,
+        "timestamp": "2026-03-25 22:34:50"
+    },
+    {
+        "text": "\u274c [22:45:06] HDD Transfer: Failed to copy file",
+        "is_read": true,
+        "timestamp": "2026-03-25 22:45:06"
+    },
+    {
+        "text": "\u2705 [08:59:28] HDD Transfer: File copied to D:\\Forensic_Transfers",
+        "is_read": true,
+        "timestamp": "2026-03-26 08:59:28"
+    },
+    {
+        "text": "\u2705 [09:09:15] HDD Transfer: File copied to D:\\Forensic_Transfers",
+        "is_read": true,
+        "timestamp": "2026-03-26 09:09:15"
+    },
+    {
+        "text": "\u2705 [09:18:15] HDD Transfer: File copied to D:\\Forensic_Transfers",
+        "is_read": true,
+        "timestamp": "2026-03-26 09:18:15"
+    },
+    {
+        "text": "\u2705 [16:35:25] Email Transfer: Sent to furqant972@gmail.com",
+        "is_read": true,
+        "timestamp": "2026-03-26 16:35:25"
+    },
+    {
+        "text": "\u2705 [16:41:54] Email Transfer: Sent to furqant972@gmail.com",
+        "is_read": true,
+        "timestamp": "2026-03-29 16:41:54"
+    },
+    {
+        "text": "\u2705 [16:43:20] HDD Transfer: File copied to D:\\Forensic_Transfers",
+        "is_read": true,
+        "timestamp": "2026-03-29 16:43:20"
+    },
+    {
+        "text": "\u274c [19:33:43] Google Drive: Upload failed: Invalid client secrets file ('Error opening file', 'client_secrets.json', 'No such file or directory', 2)",
+        "is_read": true,
+        "timestamp": "2026-03-31 19:33:43"
+    },
+    {
+        "text": "\u2705 [19:34:06] Email Transfer: Sent to furqant972@gmail.com",
+        "is_read": true,
+        "timestamp": "2026-03-31 19:34:06"
+    },
+    {
+        "text": "\u2705 [19:41:07] Email Transfer: Sent to furqant972@gmail.com",
+        "is_read": true,
+        "timestamp": "2026-03-31 19:41:07"
+    },
+    {
+        "text": "\u274c [19:50:03] Google Drive: Upload failed: Invalid client secrets file ('Error opening file', 'client_secrets.json', 'No such file or directory', 2)",
+        "is_read": true,
+        "timestamp": "2026-03-31 19:50:03"
+    },
+    {
+        "text": "\u2705 [19:56:03] LAN Transfer: File sent to 127.0.0.1 successfully",
+        "is_read": true,
+        "timestamp": "2026-04-04 19:56:03"
+    },
+    {
+        "text": "\u2705 [20:06:41] LAN Transfer: File sent to 127.0.0.1 successfully",
+        "is_read": true,
+        "timestamp": "2026-04-04 20:06:41"
+    },
+    {
+        "text": "\u2705 [20:10:40] LAN Transfer: File sent to 127.0.0.1 successfully",
+        "is_read": true,
+        "timestamp": "2026-04-04 20:10:40"
+    },
+    {
+        "text": "\u2705 [20:12:41] Email Transfer: Sent to furqant972@gmail.com",
+        "is_read": true,
+        "timestamp": "2026-04-04 20:12:41"
+    },
+    {
+        "text": "\u2705 [20:15:44] LAN Transfer: File sent to 127.0.0.1 successfully",
+        "is_read": true,
+        "timestamp": "2026-04-04 20:15:44"
+    },
+    {
+        "text": "\u2705 [20:18:54] LAN Transfer: File sent to 127.0.0.1 successfully",
+        "is_read": true,
+        "timestamp": "2026-04-04 20:18:54"
+    },
+    {
+        "text": "\u2705 [20:42:27] LAN Transfer: File sent to 127.0.0.1 successfully",
+        "is_read": true,
+        "timestamp": "2026-04-04 20:42:27"
+    },
+    {
+        "text": "\u2705 [20:50:36] LAN Transfer: File sent to 127.0.0.1 successfully",
+        "is_read": true,
+        "timestamp": "2026-04-04 20:50:36"
+    },
+    {
+        "text": "\u2705 [20:53:05] LAN Transfer: File sent to 127.0.0.1 successfully",
+        "is_read": true,
+        "timestamp": "2026-04-04 20:53:05"
+    },
+    {
+        "text": "\u2705 [11:11:21] Email Transfer: Sent to munirchaudary04@gmail.com",
+        "is_read": true,
+        "timestamp": "2026-04-25 11:11:21"
+    },
+    {
+        "text": "\u2705 [11:16:24] Email Transfer: Sent to furqant972@gmail.com",
+        "is_read": true,
+        "timestamp": "2026-04-25 11:16:24"
+    },
+    {
+        "text": "\u2705 [11:24:12] Email Transfer: Sent to furqant972@gmail.com",
+        "is_read": true,
+        "timestamp": "2026-04-25 11:24:12"
+    },
+    {
+        "text": "\u2705 [11:33:16] Email Transfer: Sent to furqant972@gmail.com",
+        "is_read": true,
+        "timestamp": "2026-04-25 11:33:16"
+    },
+    {
+        "text": "\u2705 [11:56:04] Email Transfer: Sent to furqant972@gmail.com",
+        "is_read": true,
+        "timestamp": "2026-04-25 11:56:04"
+    },
+    {
+        "text": "\u2705 [12:22:45] Email Transfer: Sent to furqant972@gmail.com",
+        "is_read": false,
+        "timestamp": "2026-04-25 12:22:45"
+    },
+    {
+        "text": "\u2705 [12:32:53] Email Transfer: Sent to furqant972@gmail.com",
+        "is_read": false,
+        "timestamp": "2026-04-25 12:32:53"
+    },
+    {
+        "text": "\u2705 [13:10:36] Email Transfer: Sent to furqant972@gmail.com",
+        "is_read": false,
+        "timestamp": "2026-04-25 13:10:36"
+    },
+    {
+        "text": "\u2705 [13:20:56] Email Transfer: Sent to furqant972@gmail.com",
+        "is_read": false,
+        "timestamp": "2026-04-25 13:20:56"
+    },
+    {
+        "text": "\u2705 [21:09:03] Email Transfer: Sent to furqant972@gmail.com",
+        "is_read": false,
+        "timestamp": "2026-04-27 21:09:03"
+    }
+]
