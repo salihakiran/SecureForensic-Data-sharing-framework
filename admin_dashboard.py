@@ -5,6 +5,7 @@ import sqlite3
 import numpy as np  
 import matplotlib.pyplot as plt
 from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
+from secureforensic_fyp import fetch_pending_users
 
 class AdminDashboard(QtWidgets.QMainWindow):
     def __init__(self, name="Master Admin"):
@@ -264,7 +265,8 @@ class AdminDashboard(QtWidgets.QMainWindow):
 
     def show_user_approvals_panel(self):
         self.title_label.setText("User Registration Approvals")
-        self.update_table(["User", "Email", "Role", "Status", "Date"], [])
+        users = fetch_pending_users()
+        self.update_table(["User", "Email", "Role", "Status", "Date"], users)
         self.chart_container.hide()
 
     def show_system_monitoring(self):
