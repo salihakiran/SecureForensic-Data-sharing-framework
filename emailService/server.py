@@ -28,10 +28,6 @@ def handle_sendmail():
     user = cursor.execute("select email from users where email = ?", (email,)).findone()
 
     
-    if not user:
-        return jsonify({"ok": False, "message": "Invalid User"})
-    if user.is_verified:
-        return jsonify({"ok": True, "message": "User Is Already Verified"})
     mail_manager = SendMail(
         email,
         "VERIFICATION",

@@ -4,6 +4,8 @@ import re # Regular expressions for validation
 from PyQt5 import QtWidgets, QtCore, QtGui
 import os
 
+from .utils.userUtils import send_verification_token
+
 # =======================================================
 # CREATE DATABASE TABLES (11 TABLES) - Preserved
 # =======================================================
@@ -867,13 +869,24 @@ class SignupPage(QtWidgets.QWidget):
         c = conn.cursor()
 
         try:
-            c.execute("INSERT INTO users (name, email, password, role) VALUES (?, ?, ?, ?)",
-                      (name, email, password, role))
-            conn.commit()
-            conn.close()
-            show_popup("Account Created Successfully! Proceeding to Signin.")
-            # Switch to Signin Page (Index 1)
-            self.switch_page.emit(1) 
+            
+            user = c.execute("SELECT email FROM users WHERE email = ? ", (self.email,)).findone()
+            if user:
+                show_popup("You can sign in or reset your password if this email is already in use.")
+            else: 
+                message, _ok = send_verification_token(self.email)
+                
+                if not _ok:
+                    show_popup(message)
+                
+                else:
+                    c.execute("INSERT INTO users (name, email, password, role,) VALUES (?, ?, ?, ?)",
+                              (name, email, password, role))
+                    conn.commit()
+                    conn.close()
+                    show_popup(message)
+                    # Switch to Signin Page (Index 1)
+                    self.switch_page.emit(1) 
 
         except sqlite3.IntegrityError:
             conn.close()
