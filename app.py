@@ -869,11 +869,11 @@ class SignupPage(QtWidgets.QWidget):
 
         try:
             
-            user = c.execute("SELECT email FROM users WHERE email = ? ", (self.email,)).findone()
+            user = c.execute("SELECT email FROM users WHERE email = ? ", (email,)).fetchone()
             if user:
                 show_popup("You can sign in or reset your password if this email is already in use.")
             else: 
-                message, _ok = send_verification_token(self.email)
+                message, _ok = send_verification_token(email)
                 
                 if not _ok:
                     show_popup(message)

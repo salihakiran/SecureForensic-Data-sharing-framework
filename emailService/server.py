@@ -5,7 +5,7 @@ from flask_mail import Mail
 from secureforensic_fyp.emailService.Config import Config
 
 from dotenv import load_dotenv
-
+import hashlib
 
 load_dotenv()
 app = Flask(__name__)
@@ -14,7 +14,6 @@ mail = Mail()
 app.config.from_object(Config)
 
 mail.init_app(app)
-
 
 @app.route("/send-mail/", methods=["POST"])
 def handle_sendmail():
@@ -26,7 +25,7 @@ def handle_sendmail():
     cursor = conn.cursor()
 
     
-    mail_manager = SendMail(
+    mail_manager = SendEmail(
         email,
         "VERIFICATION",
         token,
