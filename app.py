@@ -4,6 +4,8 @@ import re # Regular expressions for validation
 from PyQt5 import QtWidgets, QtCore, QtGui
 import os
 
+from utils.userUtils import send_verification_token, hash_text
+
 # =======================================================
 # CREATE DATABASE TABLES (11 TABLES) - Preserved
 # =======================================================
@@ -24,11 +26,10 @@ def create_users_db():
         password TEXT NOT NULL,
         email TEXT,
         role TEXT, 
-        verfication_token TEXT,
+        verification_token TEXT,
         is_verified INTEGER DEFAULT 0,
         status INTEGER NOT NULL DEFAULT 0,
-        created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
-        status TEXT
+        created_at DATETIME DEFAULT CURRENT_TIMESTAMP
     )''')
 
     # 2. forensic_files table [cite: 5, 6, 7]
@@ -851,7 +852,7 @@ class SignupPage(QtWidgets.QWidget):
         """Final validation and database insertion on button click."""
         name = self.name.text().strip()
         email = self.email.text().strip()
-        password = self.password.text()
+        password = hash_text(self.password.text())
         role = self.role.currentText()
 
         self.validate_live() 
@@ -867,13 +868,24 @@ class SignupPage(QtWidgets.QWidget):
         c = conn.cursor()
 
         try:
-            c.execute("INSERT INTO users (name, email, password, role) VALUES (?, ?, ?, ?)",
-                      (name, email, password, role))
-            conn.commit()
-            conn.close()
-            show_popup("Account Created Successfully! Proceeding to Signin.")
-            # Switch to Signin Page (Index 1)
-            self.switch_page.emit(1) 
+            
+            user = c.execute("SELECT email FROM users WHERE email = ? ", (email,)).fetchone()
+            if user:
+                show_popup("You can sign in or reset your password if this email is already in use.")
+            else: 
+                message, _ok = send_verification_token(email)
+                
+                if not _ok:
+                    show_popup(message)
+                
+                else:
+                    c.execute("INSERT INTO users (name, email, password, role,) VALUES (?, ?, ?, ?)",
+                              (name, email, password, role))
+                    conn.commit()
+                    conn.close()
+                    show_popup(message)
+                    # Switch to Signin Page (Index 1)
+                    self.switch_page.emit(1) 
 
         except sqlite3.IntegrityError:
             conn.close()
@@ -1034,7 +1046,7 @@ class SigninPage(QtWidgets.QWidget):
 
     def verify_login(self):
         email = self.email.text().strip()
-        password = self.password.text()
+        password = hash_text(self.password.text())
 
         if not email or not password:
             self.errorLabel.setText("Please enter both Email and Password.")
@@ -1046,14 +1058,18 @@ class SigninPage(QtWidgets.QWidget):
         user = c.fetchone()
         conn.close()
 
-        if user:
-            role = user[0]
-            name = user[1]
-            # Smoothly open dashboard
-            self.open_dashboard_by_role(role, name)
+        if not user:
+            self.errorLabel.setText("Invalid Email or Password")
+        elif not user.is_verified:
+            
+            message, _ok = send_verification_token(email)
+
+            if not _ok:
+                self.errorLabel.setText(message)
+            else:
+                self.errorLabel.setText("Account is not verified, check your email inbox")    
         else:
-            self.errorLabel.setText("Invalissword!")
-    
+            self.open_dashboard_by_role(user['role'], user['email'])
     def open_dashboard_by_role(self, role, name):
         global dashboard_window 
         if role == "Sender":

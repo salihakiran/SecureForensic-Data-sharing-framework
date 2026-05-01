@@ -1,10 +1,13 @@
 from flask import Flask, request, jsonify
-from secureforensics_fyp.database_helper import get_db_connection
-from secureforensics_fyp.emailService.sendMail import SendMail
+from secureforensic_fyp.emailService.database_helper import get_db_connection
+from secureforensic_fyp.emailService.sendMail import SendEmail
 from flask_mail import Mail
-from .config import Config
+from secureforensic_fyp.emailService.Config import Config
 
+from dotenv import load_dotenv
+import hashlib
 
+load_dotenv()
 app = Flask(__name__)
 mail = Mail()
 
@@ -12,24 +15,17 @@ app.config.from_object(Config)
 
 mail.init_app(app)
 
-
 @app.route("/send-mail/", methods=["POST"])
 def handle_sendmail():
     body = request.get_json()
 
     email = body.get('email')
-    token = body.get('token')
-    
+    token = hashlib.sha256(email.encode()).hexdigest()    
     conn = get_db_connection()
     cursor = conn.cursor()
-    user = cursor.execute("select email from users where email = ?", (email,)).findone()
 
     
-    if not user:
-        return jsonify({"ok": False, "message": "Invalid User"})
-    if user.is_verified:
-        return jsonify({"ok": True, "message": "User Is Already Verified"})
-    mail_manager = SendMail(
+    mail_manager = SendEmail(
         email,
         "VERIFICATION",
         token,
