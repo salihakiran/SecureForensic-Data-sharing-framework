@@ -59,7 +59,7 @@ class AdminDashboard(QtWidgets.QMainWindow):
         main_layout = QtWidgets.QHBoxLayout(central_widget)
         main_layout.setContentsMargins(0, 0, 0, 0)
         main_layout.setSpacing(0)
-
+    
         # --- SIDEBAR ---
         sidebar = QtWidgets.QFrame()
         sidebar.setObjectName("Sidebar")

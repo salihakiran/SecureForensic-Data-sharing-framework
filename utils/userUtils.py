@@ -11,7 +11,7 @@ def send_verification_token(email):
         )
 
         if not response.ok:
-            return "Something went wrong. Please try again.", False
+            return response.message, False
 
         return "If an account with this email exists, check your inbox for further instructions.", True
 

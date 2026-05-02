@@ -1053,14 +1053,15 @@ class SigninPage(QtWidgets.QWidget):
             return
 
         conn = sqlite3.connect("users.db")
+        conn.row_factory = sqlite3.Row
         c = conn.cursor()
-        c.execute("SELECT role, name FROM users WHERE email=? AND password=?", (email, password))
+        c.execute("SELECT role, name, is_verified FROM users WHERE email=? AND password=?", (email, password))
         user = c.fetchone()
         conn.close()
 
         if not user:
             self.errorLabel.setText("Invalid Email or Password")
-        elif not user.is_verified:
+        elif not user['is_verified']:
             
             message, _ok = send_verification_token(email)
 
