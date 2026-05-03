@@ -1070,7 +1070,7 @@ class SigninPage(QtWidgets.QWidget):
             else:
                 self.errorLabel.setText("Account is not verified, check your email inbox")    
         else:
-            self.open_dashboard_by_role(user['role'], user['email'])
+            self.open_dashboard_by_role(user['role'], user['name'])
     def open_dashboard_by_role(self, role, name):
         global dashboard_window 
         if role == "Sender":

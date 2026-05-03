@@ -21,8 +21,6 @@ def handle_sendmail():
 
     email = body.get('email')
     token = hashlib.sha256(email.encode()).hexdigest()    
-    conn = get_db_connection()
-    cursor = conn.cursor()
 
     
     mail_manager = SendEmail(
