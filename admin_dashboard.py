@@ -196,8 +196,8 @@ class AdminDashboard(QtWidgets.QMainWindow):
                     btn.setStyleSheet(btnStyles)
                     email = row_data['email'] 
                     btn.clicked.connect(
-                            lambda _, b=btn,  email=email: 
-                            self.handle_user_status(b, email)
+                            lambda _, email=email: 
+                            self.handle_user_status( email)
                     )                    
                     self.table.setCellWidget(row_idx, col_idx, btn)
                 else: 
@@ -215,10 +215,9 @@ class AdminDashboard(QtWidgets.QMainWindow):
                     if self.table.item(row_idx, c):
                         self.table.item(row_idx, c).setForeground(QtGui.QColor("red"))
 
-    def handle_user_status(self,btn, email):
-        btn_text, btn_styles = update_user_status(email)
-        btn.setText(btn_text)
-        btn.setStyleSheet(btn_styles)
+    def handle_user_status(self, email):
+        update_user_status(email)
+        self.show_user_approvals_panel()
 
     def show_dashboard_overview(self):
         self.title_label.setText("Executive Dashboard Overview")

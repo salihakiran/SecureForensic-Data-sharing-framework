@@ -24,8 +24,4 @@ def update_user_status(email):
     cursor.execute(
             "UPDATE users SET status = ? WHERE email = ? ", (status_up,email))
     conn.commit()
-    
-    btn_text = "Block" if status_up else "Un block"
-    btnStyles = "background-color:red; color:white" if status_up else "background-color:green; color:white;"
-
-    return btn_text, btnStyles
+    conn.close()
