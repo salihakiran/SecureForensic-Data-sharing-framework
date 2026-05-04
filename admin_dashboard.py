@@ -5,7 +5,7 @@ import sqlite3
 import numpy as np  
 import matplotlib.pyplot as plt
 from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
-from secureforensic_fyp import fetch_pending_users
+from utils.adminUtils import fetch_pending_users, update_user_status
 
 class AdminDashboard(QtWidgets.QMainWindow):
     def __init__(self, name="Master Admin"):
@@ -187,17 +187,37 @@ class AdminDashboard(QtWidgets.QMainWindow):
             self.table.insertRow(row_idx)
             is_danger = False
             for col_idx, value in enumerate(row_data):
-                item = QtWidgets.QTableWidgetItem(str(value))
-                item.setTextAlignment(QtCore.Qt.AlignCenter)
-                val_upper = str(value).upper()
-                if any(x in val_upper for x in ["MISMATCH", "UNAUTHORIZED", "FAILED", "ERROR"]):
-                    is_danger = True
-                self.table.setItem(row_idx, col_idx, item)
-            
+                
+                if str(headers[col_idx]).lower() == 'status':
+                    btnText = "Un Block" if not value else "Block"
+                    btnStyles = "background-color:green; color:white;" if not value else "background-color:red; color:white"
+                    btn = QtWidgets.QPushButton()
+                    btn.setText(btnText)
+                    btn.setStyleSheet(btnStyles)
+                    email = row_data['email'] 
+                    btn.clicked.connect(
+                            lambda _, email=email: 
+                            self.handle_user_status( email)
+                    )                    
+                    self.table.setCellWidget(row_idx, col_idx, btn)
+                else: 
+
+                    item = QtWidgets.QTableWidgetItem(str(value))
+                    item.setTextAlignment(QtCore.Qt.AlignCenter)
+                    val_upper = str(value).upper()
+                    if any(x in val_upper for x in ["MISMATCH", "UNAUTHORIZED", "FAILED", "ERROR"]):
+                        is_danger = True
+                    self.table.setItem(row_idx, col_idx, item)
+                
+
             if is_danger:
                 for c in range(self.table.columnCount()):
                     if self.table.item(row_idx, c):
                         self.table.item(row_idx, c).setForeground(QtGui.QColor("red"))
+
+    def handle_user_status(self, email):
+        update_user_status(email)
+        self.show_user_approvals_panel()
 
     def show_dashboard_overview(self):
         self.title_label.setText("Executive Dashboard Overview")

@@ -1055,7 +1055,7 @@ class SigninPage(QtWidgets.QWidget):
         conn = sqlite3.connect("users.db")
         conn.row_factory = sqlite3.Row
         c = conn.cursor()
-        c.execute("SELECT role, name, is_verified FROM users WHERE email=? AND password=?", (email, password))
+        c.execute("SELECT role, name, is_verified,status FROM users WHERE email=? AND password=?", (email, password))
         user = c.fetchone()
         conn.close()
 
@@ -1069,8 +1069,10 @@ class SigninPage(QtWidgets.QWidget):
                 self.errorLabel.setText(message)
             else:
                 self.errorLabel.setText("Account is not verified, check your email inbox")    
-        else:
-            self.open_dashboard_by_role(user['role'], user['email'])
+       elif not user["status"]:
+           self.errorLabel.setText("Admin Hasn't Approved Yet")
+       else:
+            self.open_dashboard_by_role(user['role'], user['name'])
     def open_dashboard_by_role(self, role, name):
         global dashboard_window 
         if role == "Sender":
